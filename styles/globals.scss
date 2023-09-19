@@ -1,0 +1,64 @@
+@import 'default/color_variable';
+@import 'default/typography';
+@import 'common/general';
+@import 'common/slider';
+@import 'common/video-modal';
+@import 'common/sidebar';
+@import 'common/spacing';
+@import 'shortcode/header';
+@import 'shortcode/customcursor';
+@import 'shortcode/hero';
+@import 'shortcode/iconbox';
+@import 'shortcode/card';
+@import 'shortcode/cta';
+@import 'shortcode/funfact';
+@import 'shortcode/logolist';
+@import 'shortcode/movingtext';
+@import 'shortcode/portfolio';
+@import 'shortcode/post';
+@import 'shortcode/pricing';
+@import 'shortcode/servicelist';
+@import 'shortcode/team';
+@import 'shortcode/testimonial';
+@import 'shortcode/timeline';
+@import 'shortcode/footer';
+
+
+// .cs-member_name{
+//     color: #ff4a17;
+// }
+// .cs-member_designation{
+//     color: #ff4a17;
+// }
+
+.cs-member_info{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 9%, rgba(0,0,0,0.6755077030812324) 78%);
+}
+
+.head-main .cs-moving_text {
+    display: flex;
+    font-weight: 300;
+    flex-shrink: 0;
+    align-items: center;
+    padding: 5px 6px;
+    animation: slide-left 60s linear infinite;
+    letter-spacing: 2px;
+}
+.cs-main_header_in{
+    margin-top: -18px;
+}
+.head-main .cs-moving_text_wrap {
+    font-size: 16px !important;
+
+}
+
+.head-main .cs-moving_text_wrap {
+    font-family: helvetica;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: auto;
+    color: #FF4A17;
+    -webkit-text-stroke: 0px !important ;
+    
+}
