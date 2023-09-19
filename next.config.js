@@ -1,5 +1,8 @@
 // next.config.js
 module.exports = {
-  reactStrictMode: true, // Enable React strict mode
+  reactStrictMode: true,
+  images: {
+    // Your images configuration options go here
+  },
   // Other Next.js configuration options can be added here
 };
