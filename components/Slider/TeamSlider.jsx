@@ -210,7 +210,7 @@ export default function TeamSlider() {
             memberName={item.memberName}
             memberDesignation={item.memberDesignation}
             memberSocial={item.memberSocial}
-            detailUrl={item.detailUrl}
+{/*             detailUrl={item.detailUrl} */}
           />
         </Div>
       ))}
