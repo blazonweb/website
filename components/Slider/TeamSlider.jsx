@@ -12,6 +12,7 @@ export default function TeamSlider() {
       //   detail: 'team-detail',
       // },
       memberImage: '/images/team-9.jpg',
+      detailUrl:'/team/shamsad',
       memberName: 'Shamsad P',
       memberDesignation: 'Graphic Designer',
       memberSocial: {
@@ -26,6 +27,7 @@ export default function TeamSlider() {
       //   detail: 'team-detail',
       // },
       memberImage: '/images/team-1.jpg',
+      detailUrl:'/team/firos-vk',
       memberName: 'Firos vk',
       memberDesignation: 'Web Developer',
       memberSocial: {
@@ -38,6 +40,7 @@ export default function TeamSlider() {
     {
       // detailUrl: '/team-detail',
       memberImage: '/images/team-2.jpg',
+      detailUrl:'/team/sareenak',
       memberName: 'Sareena K',
       memberDesignation: 'Consultant',
       memberSocial: {
@@ -52,6 +55,7 @@ export default function TeamSlider() {
       //  detailUrl: '/team-detail',
       memberImage: '/images/team-3.jpg',
       memberName: 'Thajuneesa K',
+      detailUrl:'/team/thajuneesa',
       memberDesignation: 'Web developer',
       memberSocial: {
         linkedin: '/',
@@ -64,6 +68,7 @@ export default function TeamSlider() {
     {
       // detailUrl: '/team-detail',
       memberImage: '/images/team-4.jpg',
+      detailUrl:'/team/abi-nihaz',
       memberName: 'Abi Nihas',
       memberDesignation: 'Graphic Designer',
       memberSocial: {
@@ -77,6 +82,7 @@ export default function TeamSlider() {
     {
       // detailUrl: '/team-detail',
       memberImage: '/images/team-5.jpg',
+      detailUrl:'/team/imran',
       memberName: 'Imran K',
       memberDesignation: 'Consultant',
       memberSocial: {
@@ -90,6 +96,7 @@ export default function TeamSlider() {
     {
       // detailUrl: '/team-detail',
       memberImage: '/images/team-6.jpg',
+      detailUrl:'/team/shalim',
       memberName: 'Shalim M',
       memberDesignation: 'Consultant',
       memberSocial: {
@@ -104,6 +111,7 @@ export default function TeamSlider() {
     {
       // detailUrl: '/team-detail',
       memberImage: '/images/team-7.jpg',
+      detailUrl:'/team/irshad',
       memberName: 'Irshad K',
       memberDesignation: 'Web Developer',
       memberSocial: {
@@ -118,6 +126,7 @@ export default function TeamSlider() {
     {
       // detailUrl: '/team-detail',
       memberImage: '/images/team-8.jpg',
+      detailUrl:'/team/shamsad',
       memberName: 'Mujeeb Rahman',
       memberDesignation: 'Consultant',
       memberSocial: {
@@ -201,6 +210,7 @@ export default function TeamSlider() {
             memberName={item.memberName}
             memberDesignation={item.memberDesignation}
             memberSocial={item.memberSocial}
+            detailUrl={item.detailUrl}
           />
         </Div>
       ))}

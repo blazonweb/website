@@ -6,7 +6,6 @@ import Div from '../../components/Div';
 import Layout from '../../components/Layout';
 import PageHeading from '../../components/PageHeading';
 import Spacing from '../../components/Spacing';
-
 import { Icon } from '@iconify/react';
 import Link from 'next/link';
 
@@ -16,15 +15,15 @@ export default function TeamDetails() {
   return (
     <>
       <Head>
-        <title>Team - Firos V K</title>
-        <meta name="description" content="Firos V K - Web Developer at Blazon Web" />
+        <title>Team - Shalim</title>
+        <meta name="description" content="Shalim - Consultant  at Blazon Web" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
         <PageHeading
-          title="Firos V K"
+          title="Shalim"
           bgSrc="/images/team_hero_bg.jpeg"
-          pageLinkText="Firos v k"
+          pageLinkText="Shalim"
         />
         <Spacing lg="150" md="80" />
         <Div className="container">
@@ -32,7 +31,7 @@ export default function TeamDetails() {
             <Div className="col-xl-5 col-lg-6">
               <Div className="cs-radius_15 cs-shine_hover_1">
                 <img 
-                  src="/images/team-1.jpg"
+                  src="/images/team-6.jpg"
                   alt="Member"
                   className="w-100"
                 />
@@ -41,9 +40,9 @@ export default function TeamDetails() {
             <Div className="col-lg-6 offset-xl-1">
               <Spacing lg="0" md="45" />
               <Div className="cs-section_heading cs-style1">
-                <h2 className="cs-section_title">Firos Vk</h2>
+                <h2 className="cs-section_title">Shalim</h2>
                 <Div className="cs-height_10 cs-height_lg_10" />
-                <h3 className="cs-section_subtitle">Web Developer</h3>
+                <h3 className="cs-section_subtitle">Consultant</h3>
                 <Div className="cs-height_5 cs-height_lg_5" />
                 <Div className="cs-separator cs-accent_bg" />
                 <Div className="cs-height_45 cs-height_lg_25" />
@@ -65,13 +64,13 @@ export default function TeamDetails() {
                 </p>
                 <Div className="cs-height_45 cs-height_lg_30" />
                 <Div className="cs-social_btns cs-style1">
-      <Link href="https://www.facebook.com/profile.php?id=100089727266883" className="cs-center">
+      <Link href="https://www.facebook.com/profile.php?id=61551391083762" className="cs-center">
         <Icon icon="fa6-brands:facebook" />
       </Link>
-      <Link href="https://www.instagram.com/hellofiru/" className="cs-center">
+      <Link href="https://www.instagram.com/am_shalim/" className="cs-center">
         <Icon icon="fa6-brands:instagram" />
       </Link>
-      <Link href="https://www.linkedin.com/in/firosvk/" className="cs-center">
+      <Link href="https://www.linkedin.com/in/shalim-m-98a281264/" className="cs-center">
         <Icon icon="fa6-brands:linkedin-in" />
       </Link>
       {/* <Link href="/" className="cs-center">
