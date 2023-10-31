@@ -7,7 +7,7 @@ export default function Team({
   memberName,
   memberDesignation,
   memberSocial,
-  // detailUrl,
+  detailUrl,
 }) {
   return (
     <Div className="cs-team cs-style1">
@@ -18,7 +18,7 @@ export default function Team({
       <Div className="cs-member_info">
         <h2 className="cs-member_name">
        
-          <Link href="#">{memberName}</Link> 
+          <Link href={detailUrl}>{memberName}</Link> 
        
             
         </h2>
