@@ -15,7 +15,7 @@ export default function TeamDetails() {
   return (
     <>
       <Head>
-        <title>Team - Abhi Nihaz</title>
+        <title>Team - Shamsad</title>
         <meta name="description" content="Shamsad - Graphic Designer at Blazon Web" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
