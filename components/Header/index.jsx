@@ -76,7 +76,7 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="http://localhost:3000/service/Socialmedia-promotion"
+                              href="https://blazonweb.in/service/Socialmedia-promotion"
                               onClick={() => setMobileToggle(false)}
                             >
                             Social Media Promotion
