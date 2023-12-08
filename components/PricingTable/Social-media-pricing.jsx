@@ -30,7 +30,7 @@ export default function PricingTableList() {
               timeline='10 Days'
               features={['1 Design', '', 'Facebook', 'Instagram', 'Approximated Views', 'Publicity -  50k-100k','Lead ad - 5k-10k']}
               btnText='Whatsapp Now'
-              btnLink='/'
+              btnLink='https://api.whatsapp.com/send/?phone=917510800049'
             />
           )}
           {tab==='premium' && (
@@ -41,7 +41,7 @@ export default function PricingTableList() {
               timeline='10 Days'
               features={['2 Design', '', 'Facebook', 'Instagram', 'Approximated Views', 'Publicity -  250k-350k','Lead ad - 10k-20k']}
               btnText='Whatsapp Now'
-              btnLink='/'
+              btnLink='https://api.whatsapp.com/send/?phone=917510800045'
             />
           )}
           <Spacing lg='25' md='25'/>
@@ -55,7 +55,7 @@ export default function PricingTableList() {
               timeline='20 Days'
               features={['2 Design ', '', 'Facebook', 'Instagram', 'Approximated Views', 'Publicity -  100k-250k','Lead ad - 8.5k-20k']}
               btnText='Whatsapp Now'
-              btnLink='/'
+              btnLink='https://api.whatsapp.com/send/?phone=917510800049'
             />
           )}
           {tab==='premium' && (
@@ -66,7 +66,7 @@ export default function PricingTableList() {
               timeline='20 Days'
               features={['4 Design ', '', 'Facebook', 'Instagram', 'Approximated Views', 'Publicity -  350k-650k','Lead ad - 20k-30k']}
               btnText='Whatsapp Now'
-              btnLink='/'
+              btnLink='https://api.whatsapp.com/send/?phone=917510800045'
             />
           )}
           <Spacing lg='25' md='25'/>
@@ -80,7 +80,7 @@ export default function PricingTableList() {
               timeline='30 Days'
               features={['3 Design ', '', 'Facebook', 'Instagram', 'Approximated Views', 'Publicity -  260k-390k','Lead ad - 12k-30k']}
               btnText='Whatsapp Now'
-              btnLink='/'
+              btnLink='https://api.whatsapp.com/send/?phone=917510800049'
             />
           )}
           {tab==='premium' && (
@@ -91,7 +91,7 @@ export default function PricingTableList() {
               timeline='30 Days'
               features={['6 Design ', '', 'Facebook', 'Instagram', 'Approximated Views', 'Publicity -  650k-800k','Lead ad - 30k-50k']}
               btnText='Whatsapp Now'
-              btnLink='/'
+              btnLink='https://api.whatsapp.com/send/?phone=917510800045'
             />
           )}
           <Spacing lg='25' md='25'/>
