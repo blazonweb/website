@@ -23,7 +23,7 @@ export default function PricingTable({
           </h3>
           <span className="cs-accent_color">{timeline}</span>
         </Div>
-        <Div className="cs-price_text">Per subscriber per year</Div>
+        {/* <Div className="cs-price_text">Approximated Views Facebook & Instagram</Div> */}
       </Div>
       <ul className="cs-pricing_feature cs-mp0">
         {features.map((feature, index) => (
@@ -34,6 +34,7 @@ export default function PricingTable({
             <span>{feature}</span>
           </li>
         ))}
+        
       </ul>
       <Div className="cs-pricing_btn_wrap">
         <Button btnLink={btnLink} btnText={btnText} />
