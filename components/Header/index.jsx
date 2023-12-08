@@ -76,10 +76,10 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="#"
+                              href="https://blazonweb.in/service/Socialmedia-promotion"
                               onClick={() => setMobileToggle(false)}
                             >
-                             Digital Marketing
+                            Social Media Promotion
                             </Link>
                           </li>
                           <li>
