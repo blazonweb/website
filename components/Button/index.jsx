@@ -6,6 +6,7 @@ export default function Button({ btnLink, btnText, variant, icon }) {
     <Link
       href={btnLink}
       target='_blank'
+
       className={variant ? `cs-text_btn ${variant}` : 'cs-text_btn'}
     >
       <>
