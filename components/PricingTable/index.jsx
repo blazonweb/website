@@ -37,7 +37,7 @@ export default function PricingTable({
         
       </ul>
       <Div className="cs-pricing_btn_wrap">
-        <Button btnLink={btnLink} btnText={btnText} />
+        <Button  btnLink={btnLink} btnText={btnText} />
       </Div>
     </Div>
   );

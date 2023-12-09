@@ -22,7 +22,7 @@ export default function PricingTableList() {
               timeline='monthly'
               features={['Static responsive website', 'Video marketing', 'Keywords research', 'Facebook campaign', 'eCommerce solution', 'Google adword']}
               btnText='Purchase Now'
-              btnLink='https://api.whatsapp.com/send/?phone=917510800045&'
+              btnLink=''
             />
           )}
           {tab==='yearly' && (

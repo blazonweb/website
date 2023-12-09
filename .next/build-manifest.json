@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/service/Socialmedia-promotion": [
+    "/service/web-development": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/service/Socialmedia-promotion.js"
+      "static/chunks/pages/service/web-development.js"
     ]
   },
   "ampFirstPages": []
